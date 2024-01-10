@@ -1,6 +1,6 @@
 
 resource "azurerm_resource_group" "tf-rg-network-hub" {
-  name     = "RG_Network-Hub"
+  name     = "RG_Network-Hub1"
   location = "West Europe"
   provider = azurerm.PAYG2
 }
